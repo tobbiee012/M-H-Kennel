@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+#navbar {
+    background:rgb(17, 17, 17);
+    color: white;
+    overflow: auto;
+}
+#navbar a {
+    color:#fff;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background: #444;
+    color: cornflowerblue;
+}
+/* utility classes */
+.container {
+    margin: auto;
+    max-width: 1400px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-color {
+    color: cornflowerblue;
+}
+.dog {
+    float: left;
+    width: 200px;
+    min-height: 100%;
+    display: block;
+    margin-right: 25px;
+    padding: 10px 0px;
+    border-radius: 30%;
+}
+.info-right {
+    width:auto;
+    min-height: 100%;
+    padding: 10px 0px;
+    text-align: left;
+    font-size: 20px;
+}
+
+/* Showcase */
+#showcase {
+    background: url('../img/jolanda-van-der-meer-1QEcBLF_gAw-unsplash.jpg') no-repeat center center/cover;
+    height: 550px;
+}
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p {
+    font-size: 22px;
+    line-height: 1.7em;
+}
+/* Home pix */
+#home-pix {
+    height: 300px;
+    background: black;
+}
+#home-pix .pix-1 {
+    float: left;
+    width: 33.3%;
+    background: url('../img/robert-koorenny-rhH4DnfBwJo-unsplash.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    margin-left: 5pxpx;
+    margin-top: 5px;
+}
+#home-pix .pix-2 {
+    float:left;
+    width: 33.3%;
+    background: url('../img/vincent-van-zalinge-v3k7Ub4lnGk-unsplash-1.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    margin-top: 5px;
+}
+#home-pix .pix-3 {
+    float: right;
+    width: 33.3%;
+    background: url('../img/erda-estremera-D1wiHCovGJ0-unsplash.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    margin-right: 5pxpx;
+    margin-top: 5px;
+}
+#main-footer {
+    text-align: center;
+    background: black;
+    padding: 20px;
+    color: #fff;
+}
+#about-info {
+    background: black;
+    color: #fff;
+}
+.info-one {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info-one p {
+    font-size: 20px;
+}
+
+#bdy {
+    background: black;
+    color: #fff;
+}
+#order-info {
+    background: url("../img/background11.jpg") no-repeat center center/cover;
+    height: 700px;
+}
+.order-one {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.form-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    line-height: 1.8em;
+}
+.form-group label{
+    display: block;
+    font-size: 25px;
+}
+.form-group input {
+    width: 25%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius:5px;
+}
+.form-group select{
+    height:25px;
+    width: 25%;
+}
+.form-text button {
+    background: cornflowerblue;
+    width: 15%;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+.form-text button:hover {
+    background: rgb(56, 104, 192);
+    font-size: 15px;
+}
+#cback {
+    background: cornflowerblue url('../img/boerboel.jpg') no-repeat top center/cover;
+    height: 85vh;
+    color: white;
+}
+.chead {
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 1.5em;
+}
+.left {
+    background: #f4f4f4;
+    color: black;
+    float: left;
+    width: 40%;
+    height: 100%;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    box-sizing: border-box;
+}
+.right {
+    background: #f4f4f4;
+    color: black;
+    float: right;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    font-size: 1.5em;
+    height: 100%;
+    box-sizing: border-box;
+}
+#head {
+    font-size: 2.5em;
+}
+.mint {
+    color: rgb(250, 8, 0);
+    text-align: center;
+}
